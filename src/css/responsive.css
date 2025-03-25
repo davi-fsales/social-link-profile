@@ -2,10 +2,10 @@
     .cartao{
        width: 380px;
        height: 650px;
+       max-width: 90vw;
     }
 }
 
 .cartao .profile .description{
     font-size: 16px;
-    text-align: center;
 }

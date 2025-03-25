@@ -16,7 +16,7 @@ body{
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    height: 600px;
+    min-height: 600px;
     width: 450px;
     border-radius: 5%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -49,6 +49,8 @@ body{
 }
 
 .cartao .profile .description{
+    display: flex;
+    text-align: center;
     color: hsl(0, 1%, 52%);
     font-size: 15px;
     margin-top: 20px;
