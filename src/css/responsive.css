@@ -1,0 +1,11 @@
+@media(max-width:500px){
+    .cartao{
+       width: 380px;
+       height: 650px;
+    }
+}
+
+.cartao .profile .description{
+    font-size: 16px;
+    text-align: center;
+}

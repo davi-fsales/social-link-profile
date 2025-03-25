@@ -1,0 +1,93 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.cartao{
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 600px;
+    width: 450px;
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.cartao .profile img{
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.cartao .profile .name{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.cartao .profile .adress{
+    color: hsl(75, 94%, 57%);
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.cartao .profile .description{
+    color: hsl(0, 1%, 52%);
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.cartao .links{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartao .links .github,
+.cartao .links .linkedin,
+.cartao .links .instagram{
+    background-color: hsl(0, 0%, 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    height: 60px;
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cartao .links .github:hover,
+.cartao .links .linkedin:hover,
+.cartao .links .instagram:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+
+
+
